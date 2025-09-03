@@ -16,8 +16,12 @@
   padding: 0;
 }
 
+/* Import a modern sans-serif font from Google Fonts for a cleaner look */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* Use the imported Poppins font for all text */
+  font-family: 'Poppins', sans-serif;
   background-color: #0a0a0a;
   color: #e5e5e5;
   line-height: 1.6;

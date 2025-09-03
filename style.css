@@ -16,12 +16,12 @@
   padding: 0;
 }
 
-/* Import a modern sans-serif font from Google Fonts for a cleaner look */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* Import Open Sans font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
 
 body {
-  /* Use the imported Poppins font for all text */
-  font-family: 'Poppins', sans-serif;
+  /* Use the imported Open Sans font for all text */
+  font-family: 'Open Sans', sans-serif;
   background-color: #0a0a0a;
   color: #e5e5e5;
   line-height: 1.6;

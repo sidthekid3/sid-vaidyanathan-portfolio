@@ -148,12 +148,17 @@ section h2 {
 }
 
 /* About Section */
+/* About section container: only apply background color; layout handled by about-wrapper */
 .about {
+  background-color: #111;
+}
+
+/* Wrapper for the about images and text, retains the original flex behaviour */
+.about-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-color: #111;
 }
 
 .about-img {
@@ -170,6 +175,15 @@ section h2 {
   border-radius: 50%;
   border: 3px solid #6ccff6;
   filter: grayscale(30%);
+  /* Add spacing between the two about images */
+  margin: 0 10px;
+}
+
+/* Ensure the About section heading spans the full width and appears above the content */
+.about h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
 .about-text {

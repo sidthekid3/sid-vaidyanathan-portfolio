@@ -228,6 +228,20 @@ section h2 {
   gap: 30px;
 }
 
+/* Layout for product development cards: arrange side by side similar to aerospace
+ * and increase their width to better fill the available space. */
+.product .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Increase the width of product development cards for a bolder appearance */
+.product .card {
+  width: 380px;
+}
+
 .card {
   background: #111;
   border-radius: 8px;
